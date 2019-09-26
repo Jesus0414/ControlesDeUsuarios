@@ -30,10 +30,23 @@ namespace ControlesDeUsuario
             grdParametrosFigura.Children.Clear();
             switch (CbFigura.SelectedIndex)
             {
-                case 0://Circulo
+				case 0:
+					break;
+                case 1://Circulo
                     grdParametrosFigura.Children.Add(new ParametrosCirculo());
-
                     break;
+				case 2://Triángulo
+					grdParametrosFigura.Children.Add(new ParametrosTriangulo());
+					break;
+				case 3://Rectángulo
+					grdParametrosFigura.Children.Add(new ParametrosRectangulo());
+					break;
+				case 4://Cuadrado
+					grdParametrosFigura.Children.Add(new ParametrosCuadrado());
+					break;
+				case 5:
+					grdParametrosFigura.Children.Add(new ParametrosTrapecio());
+					break;
                 default:
                     break;
             }

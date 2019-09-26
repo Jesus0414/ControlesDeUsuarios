@@ -71,6 +71,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ParametrosCuadrado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParametrosRectangulo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParametrosTrapecio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ParametrosTriangulo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -79,6 +91,15 @@
   <ItemGroup>
     <Compile Include="ParametrosCirculo.xaml.cs">
       <DependentUpon>ParametrosCirculo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParametrosCuadrado.xaml.cs">
+      <DependentUpon>ParametrosCuadrado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParametrosRectangulo.xaml.cs">
+      <DependentUpon>ParametrosRectangulo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParametrosTrapecio.xaml.cs">
+      <DependentUpon>ParametrosTrapecio.xaml</DependentUpon>
     </Compile>
     <Compile Include="ParametrosTriangulo.xaml.cs">
       <DependentUpon>ParametrosTriangulo.xaml</DependentUpon>

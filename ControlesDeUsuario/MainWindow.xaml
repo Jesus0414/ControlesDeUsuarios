@@ -16,19 +16,16 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Elige una figura:" VerticalAlignment="Top" Margin="27,34,0,0"/>
         <ComboBox x:Name="CbFigura" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="27,55,0,0" SelectionChanged="CbFigura_SelectionChanged">
-            <ComboBox.Background>
-                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
-                    <GradientStop Color="#FFE5E5E5" Offset="1"/>
-                </LinearGradientBrush>
-            </ComboBox.Background>
+            <ComboBoxItem>Limpiar</ComboBoxItem>
             <ComboBoxItem>Circulo</ComboBoxItem>
             <ComboBoxItem>Triángulo</ComboBoxItem>
             <ComboBoxItem>Rectángulo</ComboBoxItem>
+            <ComboBoxItem>Cuadrado</ComboBoxItem>
+            <ComboBoxItem>Pentágono</ComboBoxItem>
         </ComboBox>
         <Button Content="Calcular área" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="173,57,0,0"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Margin="277,53,0,0" FontSize="18"/>
-        <Grid x:Name="grdParametrosFigura" HorizontalAlignment="Left" Height="214" Margin="27,94,0,0" VerticalAlignment="Top" Width="273"/>
+        <Grid x:Name="grdParametrosFigura" HorizontalAlignment="Left" Height="214" Margin="27,94,0,0" VerticalAlignment="Top" Width="312"/>
 
     </Grid>
 </Window>
