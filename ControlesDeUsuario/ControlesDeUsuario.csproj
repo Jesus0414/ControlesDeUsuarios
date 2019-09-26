@@ -75,6 +75,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ParametrosPentago.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ParametrosRectangulo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -94,6 +98,9 @@
     </Compile>
     <Compile Include="ParametrosCuadrado.xaml.cs">
       <DependentUpon>ParametrosCuadrado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParametrosPentago.xaml.cs">
+      <DependentUpon>ParametrosPentago.xaml</DependentUpon>
     </Compile>
     <Compile Include="ParametrosRectangulo.xaml.cs">
       <DependentUpon>ParametrosRectangulo.xaml</DependentUpon>

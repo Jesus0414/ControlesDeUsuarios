@@ -8,6 +8,6 @@
              d:DesignHeight="102" d:DesignWidth="173">
     <Grid>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Radio:" VerticalAlignment="Top" Margin="10,10,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="10,31,0,0"/>
+        <TextBox x:Name="txtRadio" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="10,31,0,0"/>
     </Grid>
 </UserControl>

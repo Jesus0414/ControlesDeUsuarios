@@ -8,9 +8,9 @@
              d:DesignHeight="86" d:DesignWidth="322">
     <Grid>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Base:" VerticalAlignment="Top" Margin="10,10,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="10,31,0,0"/>
+        <TextBox x:Name="txtBaseTriangulo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="10,31,0,0"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Altura:" VerticalAlignment="Top" Margin="162,10,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="162,31,0,0"/>
+        <TextBox x:Name="txtAlturaTriangulo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="162,31,0,0"/>
 
     </Grid>
 </UserControl>
